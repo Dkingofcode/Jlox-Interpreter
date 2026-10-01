@@ -1,0 +1,10 @@
+// Variables and expressions
+
+var radius = 5;
+var area = 3.14159 * radius * radius;
+
+print "Radius:";
+print radius;
+
+print "Area:";
+print area;

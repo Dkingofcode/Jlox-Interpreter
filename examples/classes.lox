@@ -1,0 +1,15 @@
+// Classes, fields, methods, and initializers
+
+class Person {
+init(name) {
+this.name = name;
+}
+
+greet() {
+return "Hello, " + this.name;
+}
+}
+
+var person = Person("Lox");
+
+print person.greet();

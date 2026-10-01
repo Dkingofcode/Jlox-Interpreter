@@ -1,0 +1,12 @@
+// Functions and return values
+
+fun square(value) {
+return value * value;
+}
+
+fun add(a, b) {
+return a + b;
+}
+
+print square(5);
+print add(10, 20);

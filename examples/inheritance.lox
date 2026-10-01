@@ -1,0 +1,17 @@
+// Inheritance, method overriding, super, and this
+
+class Animal {
+speak() {
+return "animal";
+}
+}
+
+class Dog < Animal {
+speak() {
+return super.speak() + " -> dog";
+}
+}
+
+var dog = Dog();
+
+print dog.speak();
